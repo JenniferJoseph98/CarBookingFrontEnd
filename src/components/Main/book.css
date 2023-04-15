@@ -1,0 +1,20 @@
+.ReactModal__Content {
+    width: 500px !important;
+    height: 400px !important;
+    position: fixed !important;
+    text-align: center;
+    top: 50% !important;
+    left: 50% !important;
+    max-width: 90%;
+    border-radius: 25px !important;
+    background: linear-gradient(120deg, #f093fb 0%, #f5576c 100%) !important;
+    display: flex !important;
+    flex-direction: column;
+    text-transform: uppercase;
+    padding: 25px;
+    align-items: center !important;
+    justify-content: space-evenly;
+    color: white;
+    font-weight: bolder;
+    transform: translate(-50%, -50%);
+}

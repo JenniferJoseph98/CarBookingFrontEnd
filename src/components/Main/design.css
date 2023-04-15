@@ -1,0 +1,109 @@
+@media only screen and (min-width: 1200px) {
+  .w3-row-padding{
+    display: flex;
+    height: 89vh;
+    align-items: center;
+    justify-content: center;
+  }
+}
+.orderbox{
+  margin-top: 10px;
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.order{
+  margin-top: 25px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+background-color: bisque;
+  justify-content: space-evenly;
+width: 400px;
+border-radius: 25px;
+height: 300px;
+
+}
+
+.w3-white{
+  color: rgb(122, 119, 119) !important;
+  background-color: aquamarine !important;
+  line-height: 2;
+  font-size: larger;
+}
+.w3-modal-content{
+    width: 600px !important;
+      height: auto !important;
+      position: fixed !important;
+      text-align: center;
+      top: 50% !important;
+      left: 50% !important;
+      max-width: 70%;
+      color: gray;
+      font-size: larger;
+    
+      transform: translate(-50%, -50%);
+}
+.detailsPage{
+  height: 89vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+
+}
+.classes{
+    display: flex;
+   flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+     height: 80%;
+      box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+.contents{
+ text-align: justify;
+
+}
+.divTag{
+ padding: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.imgEach,.divTag{
+  width: 50%;
+  height: 100%;
+}
+
+@media only screen and (max-width: 767px) {
+  .imgEach{
+    width: 100%;
+    height: 40%;
+  }
+  .divTag{
+    width: 100%;
+    height: 60%;
+  }
+ .detailsPage{
+    height: 150vh;
+ }
+ .classes{
+  height: 95%;
+ }
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .imgEach {
+      width: 100%;
+    height: 40%;
+    }
+     .divTag {
+       width: 100%;
+       height: 60%;
+     }
+         .classes {
+           height: 95%;
+         }
+}
